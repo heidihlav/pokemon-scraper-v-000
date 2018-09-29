@@ -21,10 +21,12 @@ class Pokemon
     Pokemon.new(id: pokemon_array[0], name: pokemon_array[1], type: pokemon_array[2], db: db, hp: pokemon_array[3])
   end
 
-  def alter_hp(hp, db)
+  def alter_hp(new_hp, db)
     db.execute("UPDATE pokemon SET hp = 59 WHERE name = 'Pikachu'")
   # binding.pry
   end
+
+  
 
 
 end
