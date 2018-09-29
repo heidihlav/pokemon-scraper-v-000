@@ -19,7 +19,7 @@ class Pokemon
     Pokemon.new(id: pokemon_array[0], name: pokemon_array[1], type: pokemon_array[2], db: db)
   end
 
-  def alter_hp()
+  def alter_hp(59, db)
 
   end
 
