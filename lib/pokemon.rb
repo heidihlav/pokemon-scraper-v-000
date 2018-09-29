@@ -22,11 +22,11 @@ class Pokemon
   end
 
   def alter_hp(new_hp, db)
-    db.execute("UPDATE pokemon SET hp = 59 WHERE name = 'Pikachu'")
+    db.execute("UPDATE pokemon SET hp = new_hp WHERE name = 'Pikachu'")
   # binding.pry
   end
 
-  
+
 
 
 end
