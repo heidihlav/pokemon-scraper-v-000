@@ -1,6 +1,5 @@
 ALTER TABLE pokemon
-ADD hp integer
-DEFAULT 60;
+ADD hp INTEGER NOT NULL DEFAULT 60;
 
 
 
